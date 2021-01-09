@@ -142,6 +142,8 @@
 //! Operations are not thread-safe in this library, please use `std::sync::Mutex` or something similar to enforce thread-safety.
 //!
 
+pub const LIBPLCTAG_VERSION: (usize, usize, usize) = (2, 1, 22);
+
 #[macro_use]
 extern crate log;
 #[macro_use]

@@ -105,7 +105,7 @@ mod tests {
     #[test]
     fn test_version() {
         let version = get_version();
-        assert_eq!(version, (2, 1, 14));
+        assert_eq!(version, crate::LIBPLCTAG_VERSION);
     }
 
     #[test]

@@ -21,4 +21,5 @@ paste={version="*", optional=true}
 anyhow="*"
 
 [build-dependencies]
+cmake = "0.1"
 bindgen="*"
